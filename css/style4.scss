@@ -5,6 +5,44 @@
 @import "style5.css";
 @import "fonts.css";
 
+.dd-header{
+	background: #fefcea; /* Для старых браузров */
+    background: linear-gradient(to top, #FF7700, #FFAD00);
+    padding: 8px 0px;
+    border:1px solid #FEB418;
+    .dd-poisk{
+    	//outline: 1px solid #fff;
+    	padding-left:63px;
+    	label{
+    		input{
+    			width: 100%;
+    			outline: none;
+    			border:none;
+    			background:#BD470A;
+    			border-radius:5px;
+    			height:52px;
+    			padding-left:17px;
+    			font-family:"Arial";
+    			font-size:16px;
+				color:#FFDE00;
+
+    		
+    		}
+    			::-webkit-input-placeholder { /* WebKit browsers */
+				   color:#FFDE00;
+				}
+				:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+				   color:#FFDE00;
+				}
+				::-moz-placeholder { /* Mozilla Firefox 19+ */
+				   color:#FFDE00;
+				}
+				:-ms-input-placeholder { /* Internet Explorer 10+ */
+				   color:#FFDE00;
+				}
+    	}
+    }
+}
 
 
 
