@@ -38,6 +38,7 @@ $(document).ready(function(){
 
     // for popup
     $('a[name=modal]').click(function(e) {
+        console.log("we in popup a");
         e.preventDefault();
         var id = $(this).attr('href');
         var maskHeight = $(document).height();
