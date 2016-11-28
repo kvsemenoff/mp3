@@ -4,7 +4,7 @@
 </div>
 
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
 	<span class="df-num">1</span>
 	<div class="df-group">
 		<span>Юлиана Караулова</span>
@@ -12,7 +12,7 @@
 	</div>
 </div>
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
 	<span class="df-num">2</span>
 	<div class="df-group">
 		<span>Julian Calor & Manse</span>
@@ -20,7 +20,7 @@
 	</div>
 </div>
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">3</span>
 	<div class="df-group">
 		<span>Eric Saade Feat. Gustaf</span>
@@ -28,7 +28,7 @@
 	</div>
 </div>
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
 	<span class="df-num">4</span>
 	<div class="df-group">
 		<span>Ostrovskaya</span>
@@ -36,7 +36,7 @@
 	</div>
 </div>
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
 	<span class="df-num">5</span>
 	<div class="df-group">
 		<span>Ollin Kan Feat. Liam Chan</span>
@@ -44,7 +44,7 @@
 	</div>
 </div>
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
 	<span class="df-num">6</span>
 	<div class="df-group">
 		<span>Nicco & Solid, Sound</span>
@@ -52,7 +52,7 @@
 	</div>
 </div>
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
 	<span class="df-num">7</span>
 	<div class="df-group">
 		<span>Людмила Соколова</span>
@@ -60,7 +60,7 @@
 	</div>
 </div>
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
 	<span class="df-num">8</span>
 	<div class="df-group">
 		<span>Олег Майами</span>
@@ -68,7 +68,7 @@
 	</div>
 </div>
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
 	<span class="df-num">9</span>
 	<div class="df-group">
 		<span>Eric Saade Feat. Gustaf</span>
@@ -76,7 +76,7 @@
 	</div>
 </div>
 <div class="df-music">
-	<span class="dfimg"><a href="#"></a></span>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
 	<span class="df-num">10</span>
 	<div class="df-group">
 		<span>Ollin Kan Feat. Liam Chan</span>
