@@ -1,9 +1,66 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+.df-topcaption{
+	height: 45px;
+	background: linear-gradient(to bottom, #ffb200 , #ff7400 );
+	padding: 7px;
+	border-radius: 5px;
+	width: 100%;
+	margin: 28px 0 10px 0;
+	.dfimg{
+		background: url(/img/df-logo.png)no-repeat left top;
+		width: 30px;
+		height: 30px;
+		display: inline-block;	
+	}
+	.df-cap{
+		vertical-align: top;
+		display: inline-block;
+		margin-top: 3px;	
+		padding-left:5px;
+		font-size: 18px;
+		color:#fff;
+		font-family: "Arial";
+		font-weight: bold;
+	}
+}
+
+
+
+.df-music{
+	padding:7px;
+	border-bottom: 1px solid #e8e8e8;
+	
+	.dfimg a{
+		width: 30px;
+		height: 32px;
+		display: inline-block;
+		background: url(/img/df-play.png)no-repeat left top 2px;
+	}
+	.df-num{
+		font-size: 13px; color:#bd470a;
+		font-family: "Arial";
+		font-weight: bold;
+		vertical-align: top;
+		display: inline-block;
+		padding: 8px 11px 0 11px;
+	}
+	.df-group{
+		display: inline-block;
+		span:first-child{
+			font-size: 12px; color:#6c6c6c;font-family: "Arial";
+			display: block;
+		}
+		span:last-child{
+			color:#de6005;font-size: 12px;font-family: "Arial";font-weight: bold;
+			display: block;
+		}
+	}
+}
+.df-music:hover{
+	border-radius: 5px;
+	background: linear-gradient(to bottom, #fffffe , #eeeeee );
+	box-shadow: 0px 6px 3px -4px #d8d8d8;
+	margin: 0px;
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -21,7 +78,7 @@
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    //outline: 5px solid red;
+    
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   

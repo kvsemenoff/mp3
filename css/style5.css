@@ -1,8 +1,2 @@
-@import url(reset.css);
-@import url(style.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(fonts.css);
-
+.df-topcaption{height:45px;background:linear-gradient(to bottom, #ffb200, #ff7400);padding:7px;border-radius:5px;width:100%;margin:28px 0 10px 0}.df-topcaption .dfimg{background:url(/img/df-logo.png) no-repeat left top;width:30px;height:30px;display:inline-block}.df-topcaption .df-cap{vertical-align:top;display:inline-block;margin-top:3px;padding-left:5px;font-size:18px;color:#fff;font-family:"Arial";font-weight:bold}.df-music{padding:7px;border-bottom:1px solid #e8e8e8}.df-music .dfimg a{width:30px;height:32px;display:inline-block;background:url(/img/df-play.png) no-repeat left top 2px}.df-music .df-num{font-size:13px;color:#bd470a;font-family:"Arial";font-weight:bold;vertical-align:top;display:inline-block;padding:8px 11px 0 11px}.df-music .df-group{display:inline-block}.df-music .df-group span:first-child{font-size:12px;color:#6c6c6c;font-family:"Arial";display:block}.df-music .df-group span:last-child{color:#de6005;font-size:12px;font-family:"Arial";font-weight:bold;display:block}.df-music:hover{border-radius:5px;background:linear-gradient(to bottom, #fffffe, #eee);box-shadow:0px 6px 3px -4px #d8d8d8;margin:0px}
 /*# sourceMappingURL=style5.css.map */
