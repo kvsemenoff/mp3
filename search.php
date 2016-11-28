@@ -32,7 +32,7 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 	
-	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/header2.php'); ?>
 		
 	<div class="container">
 		<div class="row">
@@ -41,10 +41,7 @@
 			</div>
 			<div class="col-md-8">
 				<?php require_once('includes/tabs.php'); ?>
-				<?php require_once('includes/mylist.php'); ?>
-				<?php require_once('includes/popularlist.php'); ?>
 				<?php require_once('includes/onlinelist.php'); ?>
-				<?php require_once('includes/seotext.php'); ?>
 			</div>
 			<div class="col-md-2">
 				<?php require_once('includes/sidebar-right.php'); ?>
