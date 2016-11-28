@@ -36,23 +36,33 @@ $(document).ready(function(){
 
 
 
-    // for popup
+    $("#btn1").click(function(){
+
+    }); 
+
+    // for popup 
     $('a[name=modal]').click(function(e) {
-        console.log("we in popup a");
-        e.preventDefault();
-        var id = $(this).attr('href');
-        var maskHeight = $(document).height();
-        var maskWidth = $(window).width();
-        $('#mask').css({'width':maskWidth,'height':maskHeight});
+        console.log("we in popup a"); 
+        e.preventDefault(); 
+        var id = $(this).attr('href'); 
+        var maskHeight = $(document).height(); 
+        var maskWidth = $(window).width(); 
+        console.log(maskHeight+'_'+maskWidth); 
+        $('#mask').css({'width':maskWidth,'height':maskHeight}); 
         $('#mask').fadeTo("slow",0.8); 
-        var winH = $(window).height();
-        var winW = $(window).width();
-        posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-        $(id).css('top',  posTop+150);
-        $(id).css('left', winW/2-$(id).width()/2);        
+        var winH = $(window).height(); 
+        var winW = $(window).width(); 
+        posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop; 
+        console.log(winH+'_'+winW+"_"+posTop+"_id:"+id); 
+        id = '#zvonok'; 
+        $(id).css('top',  posTop+150); 
+        $(id).css('left', winW/2-$(id).width()/2); 
         $(id).fadeIn(500); 
+    }); 
+    $("#mask").click(function(){
+        $(this).css("display","none");
+        id = '#zvonok'; 
+        $(id).css("display","none");
     });
 
  });
-
-

@@ -55,18 +55,19 @@
 
 	<?php require_once('includes/footer.php'); ?>
 	
-	<button><a id="btn1 name='modal'">btn1</a></button>
+	<button id="btn1">btn1</button>
+	<a name='modal' href='pro100pro'>link1</a>
 	<div id="mask"></div>
-	<div id="zvonok" class="window"> 
+	<div id="zvonok" class="window">
 		<form action="" class="common-form form1">
 			<div class="an-exit">
 				<span class="an-exit__krest"></span>
 			</div>
-			<span class="form-title">заказать_звонок_текст_1</span>
-			<span class="form-subtitle">заказать_звонок_текст_2</span>
-			<input type="text" name="tel" placeholder="+7 900 000 00 00" class="phone">
-			<input type="hidden" name="formname" value="Форма закзать констультацию">
-			<input type="submit" id="form1_submit" value="заказать_звонок_кнопка">
+			<span class="form-title">Войти на сайт</span>
+			<input type="text" name="ulog" placeholder="Логин..." class="phone">
+			<input type="text" name="upas" placeholder="Пароль" class="phone">
+			<input type="checkbox" name="formname" value="Запомнить меня">
+			<input type="submit" id="form1_submit" value="Войти">
 		</form>
 	</div>
 	
