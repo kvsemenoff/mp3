@@ -1,4 +1,70 @@
-<div class="df-topcaption">
+﻿<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Скачать</title>
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/wow/animate.css">
+	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/owl.carousel/owl.carousel.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/wow/wow.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+
+	<script>
+    	new WOW().init();
+    </script>
+
+	<script src="js/responsiveTabs.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/common.js"></script>
+	
+<section class="dd-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="dd-logo">
+					<a href="#"><img src="img/logo.png"></a>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="dd-poisk">
+					<label>
+						<input class="dd-input" type="text" placeholder="Поиск музыки...">
+						<input class="dd-submit" value="" type="submit">
+					</label>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="dd-poisk2">
+					<label>
+						<input class="dd-input" type="text" placeholder="Username">
+						<input class="dd-submit" value="" type="submit">
+					</label>
+				</div>
+			</div>
+			<div class="clerafix"></div>	
+		</div>
+	</div>
+</section>
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="df-topcaption">
 	<span class="dfimgbg"></span>
 	<span class="df-cap">Русский топ</span>
 </div>
@@ -112,7 +178,67 @@
 		</a>
 	</div>
 </div>
-<div class="df-topcaption">
+			</div>
+			<div class="col-md-6">
+				<div class="df-tabs df-tabstoggle">
+	<ul class="df-first">
+		<li><a href="#">Главная</a></li>
+		<li><a href="#">Евровидение 2016</a></li>
+		<li><a href="#">Новые хиты 2016</a></li>
+		<li><a href="#">Голос Дети</a></li>
+	</ul>
+	<ul class="df-second">
+		<li><a href="#">Хиты 80-90х</a></li>
+		<li><a href="#">Танцевальная</a></li>
+		<li><a href="#">Дискотечная</a></li>
+		<li><a href="#">Русская поп музыка</a></li>
+	</ul>
+	<ul class="df-third">
+		<li><a href="#">Зарубежные новинки </a></li>
+		<li><a href="#">Шансон 2016</a></li>
+		<li><a href="#">Каспийский Груз</a></li>		
+	</ul>
+	<ul class="df-second">
+		<li><a href="#">Хиты 80-90х</a></li>
+		<li><a href="#">Танцевальная</a></li>
+		<li><a href="#">Дискотечная</a></li>
+		<li><a href="#">Русская поп музыка</a></li>
+	</ul>
+
+</div>
+<div class="df-oc">
+	<a href="#" class="df-open">Развернуть</a>
+	<a href="#" class="df-close">Свернуть</a>
+</div>
+
+<script>
+$('.df-close').hide();
+	$('.df-open').on('click', function(e){
+		e.preventDefault();				
+		$(this).hide();
+		$('.df-close').show();
+		$('.df-tabs').toggleClass('df-tabs2');
+		$('.df-tabs').toggleClass('df-tabstoggle');				
+	});
+	$('.df-close').click(function(e){
+		e.preventDefault();				
+		$(this).hide();
+		$('.df-open').show();
+		$('.df-tabs').toggleClass('df-tabs2');
+		$('.df-tabs').toggleClass('df-tabstoggle');		
+	});
+
+
+</script>
+				<div class="df-track">
+	<span class="df-name">Emin &amp; Ани Лорак</span>
+	<span class="df-nametrack">Я Не Могу Сказать</span>
+	<div class="df-sound"><a href="#">Слушать</a></div>
+	<div class="df-sound df-bg2"><a href="#">Скачать</a></div>
+</div>
+			</div>
+			<div class="col-md-3">
+				<div class="df-topcaption">
 	<span class="dfimgbg"></span>
 	<span class="df-cap">Иностранный топ</span>
 </div>
@@ -244,3 +370,99 @@
 		$(this).prev('.dfimg').css("display","inline-block");		
 	});
 </script>
+			</div>
+			<div class="clearfix"></div>	
+		</div>
+	</div>
+
+	<section class="dd-footer-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="dd-player">
+					<div class="dd-center">
+						<div class="dd-prevs">
+							<a href="#"></a>
+						</div>
+
+						<div class="dd-play">
+							<a href="#"></a>
+						</div>
+
+						<div class="dd-prevs dd-prevs2">
+							<a href="#"></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="dd-progress-wrap">
+					<div class="progress-bar orange shine">
+						<span style="width: 100%" >Егор Крид - Папина дочка</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="dd-range-wrap">
+					<input type="range" value="100" min="0" max="100">
+				</div>
+				<div class="top-footer-right">
+					<div class="dd-download">
+						<a href="#">
+							<img src="img/kv2.png">
+						</a>
+					</div>
+					<div class="dd-download dd-download2">
+						<a href="#">
+							<img src="img/kv1.png">
+						</a>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>			
+		</div>
+	</div>
+</section>
+<section class="dd-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-left">
+					<span>&copy; 2015-2016 Мп3.su</span>
+				</div>
+				<div class="footer-right">
+					<span>По всем вопросам писать: <span> support@mp3.su</span></span> 
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>	
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript">
+	$('input[type=range]').css('border-radius','7px');
+</script>
+<script>
+	$('.dfimg').click(function(){		
+		$('.dfimg2').each(function(){
+			if ($(this).css('display') == 'inline-block' ){
+				$(this).css("display","none");
+				$(this).prev(".dfimg").show();
+			}
+		});
+		$(this).css("display","none");
+		$(this).next('.dfimg2').css("display","inline-block");		
+	});
+
+	$('.dfimg2').click(function(){		
+		$(this).css("display","none");
+		$(this).prev('.dfimg').css("display","inline-block");		
+	});
+</script>
+
+	
+</body>
+</html>
+
