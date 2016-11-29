@@ -41,7 +41,7 @@
 			</div>
 			<div class="col-md-6">
 				<?php require_once('includes/tabs.php'); ?>
-				<?php require_once('includes/onlinelist.php'); ?>
+				<?php require_once('includes/onlinelist2.php'); ?>
 			</div>
 			<div class="col-md-3">
 				<?php require_once('includes/sidebar-right2.php'); ?>

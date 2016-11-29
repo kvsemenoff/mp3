@@ -67,3 +67,20 @@
 <script type="text/javascript">
 	$('input[type=range]').css('border-radius','7px');
 </script>
+<script>
+	$('.dfimg').click(function(){		
+		$('.dfimg2').each(function(){
+			if ($(this).css('display') == 'inline-block' ){
+				$(this).css("display","none");
+				$(this).prev(".dfimg").show();
+			}
+		});
+		$(this).css("display","none");
+		$(this).next('.dfimg2').css("display","inline-block");		
+	});
+
+	$('.dfimg2').click(function(){		
+		$(this).css("display","none");
+		$(this).prev('.dfimg').css("display","inline-block");		
+	});
+</script>

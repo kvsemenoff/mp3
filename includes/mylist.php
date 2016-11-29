@@ -9,7 +9,7 @@
 <div class="df-playlist df-playlist2">
 	<span class="df1  dd2">1</span>
 	<a href="#" class="df2">Плейлист 1</a>
-	<span class="df3">100</span>
+	<span class="df3 dd3">100</span>
 	<div class="dd-block">
 		<div class="dd-cheks2">
 			<div class="ab-remember2">
@@ -36,7 +36,7 @@
 <div class="df-playlist df-playlist2">
 	<span class="df1  dd2">2</span>
 	<a href="#" class="df2">Плейлист 2</a>
-	<span class="df3">100</span>
+	<span class="df3 dd3">100</span>
 	<div class="dd-block">
 		<div class="dd-cheks2">
 			<div class="ab-remember2">
@@ -63,7 +63,7 @@
 <div class="df-playlist df-playlist2">
 	<span class="df1  dd2">3</span>
 	<a href="#" class="df2">Плейлист 3</a>
-	<span class="df3">100</span>
+	<span class="df3 dd3">100</span>
 	<div class="dd-block">
 		<div class="dd-cheks2">
 			<div class="ab-remember2">
@@ -90,7 +90,7 @@
 <div class="df-playlist df-playlist2">
 	<span class="df1  dd2">4</span>
 	<a href="#" class="df2">Плейлист 4</a>
-	<span class="df3">100</span>
+	<span class="df3 dd3">100</span>
 	<div class="dd-block">
 		<div class="dd-cheks2">
 			<div class="ab-remember2">
@@ -117,7 +117,7 @@
 <div class="df-playlist df-playlist2">
 	<span class="df1  dd2">5</span>
 	<a href="#" class="df2">Плейлист 5</a>
-	<span class="df3">100</span>
+	<span class="df3 dd3">100</span>
 	<div class="dd-block">
 		<div class="dd-cheks2">
 			<div class="ab-remember2">
