@@ -1,6 +1,10 @@
 
+.clear{
+	clear: both;
+}
+
 // left and right sidebar
-.df-topcaption{
+.df-topcaption, .df-topcaption2{
 	height: 45px;
 	background: linear-gradient(to bottom, #ffb200 , #ff7400 );
 	padding: 7px;
@@ -24,7 +28,9 @@
 		font-weight: bold;
 	}
 }
-
+.dfimg2{
+	display: none;
+}
 .df-music{
 	padding: 0 7px 2px 7px;
 	border-bottom: 1px solid #e8e8e8;
@@ -32,8 +38,7 @@
 	.dfimg a{
 		width: 30px;
 		height: 32px;
-		display: inline-block;
-		
+		display: inline-block;		
 	}
 	.df-num{
 		font-size: 13px; color:#bd470a;
@@ -65,32 +70,35 @@
 //tabs
 
 .df-tabstoggle{
-	background: linear-gradient(to bottom, rgba(0,0,0,0.7) 55%, rgba(0,0,0,0) );
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-moz-background-clip: text;
-	-moz-text-fill-color: transparent;
+	z-index: 2;
+	//background: linear-gradient(to bottom, rgba(0,0,0, 0.7) 55%, rgba(0,0,0,0) );
+	// -webkit-background-clip: text;
+	// -webkit-text-fill-color: transparent;
+	// -moz-background-clip: text;
+	// -moz-text-fill-color: transparent;
+	
 }
 .df-tabs{
 	height: 120px;
 	overflow: hidden;
 	margin-top: 28px;
-	
+	z-index: 5;
 	.df-first, .df-second, .df-third{
 		display: block;
 		text-align: center;		
 		li{
 			//display: inline-block;			
-			 a{
-			 	// background: linear-gradient(to bottom, #fffffe , #eeeeee );
-			 	// z-index: 0;	
-				font-size: 14px; color:#595959;font-family: "Arial";
+			 a{			 	
+			 	z-index: 200;
+				color:#595959;
+				font-size: 14px; 
+				font-family: "Arial";
 				margin:0 14px 10px 0;
 				padding: 6px 11px;
 				display: inline-block;
 				border-radius: 5px;
 				box-shadow: 0px 2px 7px -4px #d8d8d8;
-
+				background: linear-gradient(to top, rgba(#fffffe, 0.7), rgba(#eeeeee,0)  );
 			}
 		}
 	}	
@@ -116,10 +124,67 @@
 	height: auto !important;
 	min-height: 150px;	
 }
+
+
+//popularlist
+.df-topcaption2{
+	width: 100%;
+	margin-bottom: 12px;
+	.df-cap{
+		letter-spacing: -0.2px;
+		font-size: 16px;
+	}
+	.df-img2{
+		background: url(/img/df-logo2.png)no-repeat left top;
+		width: 30px;
+		height: 30px;
+		display: inline-block;	
+	}		
+}
+.df-playlist{
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 6px;
+	display: block;
+	.df1{
+		background: url(/img/df-bg.png)no-repeat center;
+		color:#ffffff; font-size: 15px;
+		font-family: "Arial"; font-weight: bold;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		text-align: center;
+		padding-top: 5px;
+		margin: 5px 0 5px 7px;
+	}
+	.df2{
+		color:#de6005;
+		font-size: 15px;
+		font-family: "Arial"; font-weight: bold;
+		margin-left: 9px;
+	}
+	.df3{
+		float: right;
+		font-size: 14px;color:#595959;font-family: "Arial";
+		margin-right: 17px;
+		padding-top: 9px;
+	}
+}
+
+.df-playlist:hover{
+	border-radius: 5px;
+	background: linear-gradient(to bottom, #ffffff, #f4f3f2 );
+	box-shadow: 0px 6px 3px -4px #d8d8d8;	
+}
+
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+	.df-topcaption2{	
+		.df-cap{		
+			font-size: 18px;
+		}
+	}
 }
 
 @media only screen and (min-width : 768px) {
