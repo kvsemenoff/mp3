@@ -55,8 +55,6 @@
 
 	<?php require_once('includes/footer.php'); ?>
 	
-	<button id="btn1">btn1</button>
-	<a name='modal' href='pro100pro'>link1</a>
 	<div id="mask"></div>
 	<div id="zvonok" class="window">
 		<form action="" class="common-form form1">			
@@ -72,14 +70,20 @@
 		</form>
 		<div class="de-dashed-line"></div>
 		<div class="soc_items">
-			<div class="caption">Войти с помощью</div>
+			<div class="caption">Войти с помощью:</div>
 			<ul class="soci">
-				<li>11</li>
-				<li>22</li>
-				<li>33</li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ul>
 		</div>
+		
 		<div class="de-dashed-line"></div>
+		<div class="de-btm_reg_links">
+			<div class="reg"><a href="#">Зарегистрироваться</a></div>
+			<div class="forgot"><a href="#">Забыли пароль?</a></div>
+			<div class="clearfix"></div>
+		</div>		
 	</div>
 	
 </body>
