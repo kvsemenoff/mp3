@@ -436,14 +436,12 @@
 }
 
  .df-topcaption3{
+ 	position: relative;
  	a{
  		padding-left:32px;
- 		position: relative;
- 		img{
- 			position: absolute;
- 			right: -27px;
-		    top: -11px;
- 		}
+ 		position: absolute;
+		right: 10px;
+	    top: 11px;
  	}
  	background: linear-gradient(to bottom, #EB6517, #C14B0C ) !important;
  	.df-img2{
@@ -501,12 +499,101 @@
 		 
 		/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
 		.checkbox-custom {
+			box-shadow: 0 0 3px #d8d8d8;
 		    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
 		    width: 15px;             /* Обязательно задаем ширину */
 		    height: 16px;            /* Обязательно задаем высоту */
 		    border: 1px solid #ECECEC;
 		    background:none;
 		    border-radius: 5px;
+		    // margin-top: 13px;
+		}
+		 
+		/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
+		.checkbox-custom,
+		.label {
+		    display: inline-block;
+		    vertical-align: middle;
+		}
+		 
+		/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+		.checkbox:checked + .checkbox-custom::before {
+		    content: "";             /* Добавляем наш псевдоэлемент */
+		    display: block;          /* Делаем его блочным элементом */
+		    position: absolute;      /* Позиционируем его абсолютным образом */
+		 
+		    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+		    top: 4px;
+		    right: 2px;
+		    bottom: 2px;
+		    left: 2px;
+		    background: url(../img/ab-galka.png) no-repeat top 0px center;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+		    border-radius: 2px;
+		}
+		/*# sourceMappingURL=style.css.map */
+	}
+}
+.dd-cheks2{
+	padding:10px 7px;
+	margin-bottom:10px;
+	display: inline-block;
+	// position: relative;
+	.dd-delete{
+		// position: absolute;
+		// right:-172px;
+		display: inline-block;
+		margin-left:20px;
+		a{
+			border-radius:5px;
+		 	background: linear-gradient(to bottom, #EB6517, #C14B0C ) !important;
+		 	padding:4px 21px 4px 38px;
+		 	font-family:"Arial";
+		 	font-size:12px;
+		 	color:#fff;
+		 	position: relative;
+		 }
+		 a:after{
+		 	content:" ";
+		 	position: absolute;
+ 	 		background: url(../img/dd-korz.png); 
+ 	 		width: 12px;
+ 	 		height: 12px;
+ 	 		left:16px;
+ 	 		top:5px;
+		 }
+	}
+	/* Скрываем реальный чекбокс */
+	.ab-remember2{
+		// float:left;
+		display: inline-block;
+		.checkbox {
+		    display: none;
+		}
+		label{
+			//display: block;
+			margin-left: 9px;
+			cursor:pointer;
+			span{
+				font-family:"Arial";
+				font-size:12px;
+			}
+		}
+		.margin-label{
+			// margin-top:4px;
+			margin-left:38px;
+			// outline: 1px solid red;
+		}
+		 
+		/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
+		.checkbox-custom {
+		    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+		    width: 15px;             /* Обязательно задаем ширину */
+		    height: 16px;            /* Обязательно задаем высоту */
+		    border: 1px solid #ECECEC;
+		    background:none;
+		    border-radius: 5px;
+		    // box-shadow: 0 6px 3px -3px #d8d8d8;
+		    box-shadow: 0 0 3px #d8d8d8;
 		    // margin-top: 13px;
 		}
 		 
@@ -553,10 +640,25 @@
 	    margin: 5px 0 5px 7px;
 	    padding-top: 5px;
 	    text-align: center;
-	    width: 30px;
+	    // width: 30px;
+	}
+	.dd-block{
+		display: inline-block;
+		visibility: hidden;
+		// visibility: visible;
+
 	}
 }
-	
+
+.df-playlist2:hover{
+	.dd-block{
+		visibility: visible;
+	}
+	.df3{
+		display: none;
+	}
+}
+
 .dd-topcaption{
 	width: 100% !important;
 }		
@@ -567,6 +669,14 @@
 }
 
 @media only screen and (min-width : 768px) {
+
+	.dd-cheks2{
+		position: relative;
+		.dd-delete{
+			position: absolute;
+			right:-128px;
+		}
+	}		
 }
 
 @media only screen and (min-width : 992px) {
