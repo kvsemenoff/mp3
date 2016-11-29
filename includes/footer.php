@@ -19,16 +19,16 @@
 					<div class="clearfix"></div>
 				</div>
 			</div>
-			<div class="col-md-7">
+			<div class="col-md-6">
 				<div class="dd-progress-wrap">
 					<div class="progress-bar orange shine">
 						<span style="width: 100%" >Егор Крид - Папина дочка</span>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-4">
 				<div class="dd-range-wrap">
-					<input type="range" value="0" max="100">
+					<input type="range" value="100" min="0" max="100">
 				</div>
 				<div class="top-footer-right">
 					<div class="dd-download">
@@ -63,3 +63,7 @@
 		</div>
 	</div>
 </section>
+
+<script type="text/javascript">
+	$('input[type=range]').css('border-radius','7px');
+</script>

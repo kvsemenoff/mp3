@@ -311,6 +311,7 @@
 		padding-top:10px;
 		position: relative;
 		padding-left:27px;
+		// margin-left:85px;
 		input[type=range] {
 			-webkit-appearance: none;
 			// margin: 50px;
@@ -329,7 +330,7 @@
 			// animate: 0.2s;
 			// border: 1px solid #575656;
 			// background: #AD020D;
-			height: 8px;
+			height: 5px;
 			cursor: pointer;
 			animate: 0.2s;
 			background: #fff;
@@ -361,13 +362,13 @@
 			cursor: pointer;
 			-webkit-appearance: none;
 			position: relative;
-			margin-top:-2px;
+			margin-top:-3px;
 		}
 
 		/* Полоса в Мозиле */
     
 		input[type=range]::-moz-range-track {
-			height: 8px;
+			height: 5px;
 			cursor: pointer;
 			animate: 0.2s;
 			background: #fff;
@@ -392,7 +393,7 @@
 		content:" ";
 		position: absolute;
 		left:0;
-		top:11px;
+		top:12px;
 		width: 17px;
 		height: 16px;
 		background: url(../img/zv.png);
@@ -435,7 +436,7 @@
 	}
 }
 
- .df-topcaption3{
+.df-topcaption3{
  	position: relative;
  	a{
  		padding-left:32px;
@@ -644,7 +645,8 @@
 	}
 	.dd-block{
 		display: inline-block;
-		visibility: hidden;
+		display: none;
+		// visibility: hidden;
 		// visibility: visible;
 
 	}
@@ -652,7 +654,8 @@
 
 .df-playlist2:hover{
 	.dd-block{
-		visibility: visible;
+		display: inline-block;
+		// visibility: visible;
 	}
 	.df3{
 		display: none;
@@ -680,6 +683,20 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dd-footer-top{
+		.dd-range-wrap{
+
+			margin-left:85px !important;
+		}
+		.top-footer-right{
+			margin-right:40px;
+		}
+	}
+	.dd-header{
+		.dd-log-in{
+			margin-right:22px;
+		}
+	}
 	.dd-header{
 	    .dd-logo{
 	    	text-align:left;
@@ -694,8 +711,11 @@
 		}		
 		.dd-progress-wrap{	
 			padding-left: 34px;
-		    padding-right: 100px;
+		    // padding-right: 100px;
 		}
+	}
+	.dd-footer .footer-right {
+		margin-right: 40px;
 	}	
 }
 

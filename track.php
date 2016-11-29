@@ -36,14 +36,14 @@
 		
 	<div class="container">
 		<div class="row">
-			<div class="col-md-2">
+			<div class="col-md-3">
 				<?php require_once('includes/sidebar-left.php'); ?>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-6">
 				<?php require_once('includes/tabs.php'); ?>
 				<?php require_once('includes/track-inc.php'); ?>
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-3">
 				<?php require_once('includes/sidebar-right.php'); ?>
 			</div>
 			<div class="clearfix"></div>	
