@@ -7,6 +7,7 @@
 
 .dd-header{
     background: linear-gradient(to top, #FF7700, #FFAD00);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,#FF7700), color-stop(100%,#FFAD00));
     padding: 8px 0px;
     border:1px solid #FEB418;
     .dd-logo{
