@@ -16,12 +16,12 @@
 			</div>
 			<div class="col-md-3">
 				<div class="dd-log-in">
-					<a href="#" name='modal'>
-						<div class="dd-button active">						
+					<a href="#" name='modal' style="display: block; float: left;">
+						<div class="dd-button active" >						
 							<span>Войти</span>
 						</div>
 					</a>
-					<a href="#">	
+					<a href="#" style="display: block; margin-left: 120px;">	
 						<div class="dd-button dd-button2">	
 							<span>Регистрация</span>
 						</div>

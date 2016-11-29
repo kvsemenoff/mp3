@@ -158,8 +158,9 @@
     		// }
     	}
     	.dd-button:hover{
-    		background: #fefcea; /* Для старых браузров */
+    		// background: #fefcea; /* Для старых браузров */
 		    background: linear-gradient(to top, #FF9600, #FFC000);
+		    background: -webkit-gradient(linear, left bottom, left  top, color-stop(0%,#FF9600), color-stop(100%,#FFC000));
 		    border-bottom:2px solid #DE6305;
 		    span{
 		    	font-weight:bold;
@@ -168,9 +169,10 @@
 		    }
     	}
     	.active{
-    		background: #fefcea; /* Для старых браузров */
-		    background: linear-gradient(to top, #FF9600, #FFC000);
-		    border-bottom:2px solid #DE6305;
+    		// background: #fefcea; /* Для старых браузров */
+    		background: linear-gradient(to top, #FF9600, #FFC000);
+    		background: -webkit-gradient(linear, left bottom, left  top, color-stop(0%,#FF9600), color-stop(100%,#FFC000));
+    		border-bottom:2px solid #DE6305;
 		    span{
 		    	font-weight:bold;
 		    	font-size:16px;
@@ -447,6 +449,7 @@
 	    top: 11px;
  	}
  	background: linear-gradient(to bottom, #EB6517, #C14B0C ) !important;
+	background: -webkit-gradient(linear, left top, left   bottom, color-stop(0%,#EB6517), color-stop(100%,#C14B0C)) !important;
  	.df-img2{
  		background: url(../img/dd-u.png) no-repeat left center !important ; 
  	}
@@ -465,6 +468,8 @@
 		a{
 			border-radius:5px;
 		 	background: linear-gradient(to bottom, #EB6517, #C14B0C ) !important;
+		 	background: -webkit-linear-gradient(top, #EB6517, #C14B0C ) !important;		 	
+
 		 	padding:4px 21px 4px 38px;
 		 	font-family:"Arial";
 		 	font-size:12px;
@@ -549,6 +554,8 @@
 		a{
 			border-radius:5px;
 		 	background: linear-gradient(to bottom, #EB6517, #C14B0C ) !important;
+		 			 	background: -webkit-linear-gradient(top, #EB6517, #C14B0C ) !important;		 	
+
 		 	padding:4px 21px 4px 38px;
 		 	font-family:"Arial";
 		 	font-size:12px;
