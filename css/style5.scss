@@ -78,13 +78,14 @@
 	background: url(/img/df-logo3.png)no-repeat left top !important;
 }
 .df-online{
-	border:none;
+	border-bottom: 1px dashed #e8e8e8;
 	padding: 7px 7px 2px 7px;
 	margin-top: 12.5px;
+	margin-bottom: 7px;
 	text-align: center;	//
 	.df-group{
 		vertical-align: top;
-		padding-top: 7px;
+		padding-top: 7px;		
 		//margin-left: 13px;		
 		text-align: center;
 		width: 100%;
@@ -98,13 +99,13 @@
 		}
 	}	
 }
-.df-online:after{
-	content: "";
-	position: absolute;
-	width: 100%;
-	border-bottom: 1px dashed #e8e8e8;
-	margin: 5px 0 7px 0;
-}
+// .df-online:after{
+// 	content: "";
+// 	position: absolute;
+// 	// width: 100%;
+// 	border-bottom: 1px dashed #e8e8e8;
+// 	margin: 5px 0 7px 0;
+// }
 .df-online:hover{
 	border-radius: 5px;
 	background: linear-gradient(to bottom, #fffffe , #eeeeee );
