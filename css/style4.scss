@@ -201,6 +201,7 @@
 	border-bottom:1px solid #FA8119;
 	padding-top:8px;
 	// height: 59px; на декстопе
+	background: -webkit-linear-gradient(bottom, #FF7700, #FFAC00);	
 	background: linear-gradient(to top, #FF7700, #FFAC00);
 	.dd-player{
 		// display:table; 
@@ -215,24 +216,38 @@
 					display:inline-block;
 					width: 30px;
 					height: 30px;
-					background: #fff url(../img/dd-left.png) no-repeat right 8px center;
+					// background: #fff url(../img/dd-left.png) no-repeat right 8px center;
 					border-radius:5px;
+					background-image: url(../img/dd-left.png);
+					background-color: #fff;
+					background-repeat: no-repeat;
+					background-position: center;
 				}
 			}
 			.dd-prevs2{
 				margin-left:5px;
 				a{
-					background: #fff url(../img/dd-right.png) no-repeat left 8px center;
+					// background: #fff url(../img/dd-right.png) no-repeat left 8px center;
+					background-image: url(../img/dd-right.png);
+					background-repeat: no-repeat;
+					background-position: center;
 				}
 			}
 			.dd-play{
 				float:left;
 				a{
 					// display: table-cell;
+					
+					background-image: url(../img/play.png);
+					background-color: #fff;
+					background-repeat: no-repeat;
+					background-position: center;
+					//  no-repeat center
+// 					
 					display:inline-block;
 					width: 42px;
 					height: 42px;
-					background: #fff url(../img/play.png) no-repeat left 15px center;
+					// background: #fff url(../img/play.png) no-repeat left 15px center;
 					border-radius:5px;
 					margin-left:5px;
 				}
