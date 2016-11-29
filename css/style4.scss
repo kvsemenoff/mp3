@@ -435,7 +435,127 @@
 	}
 }
 
- 
+ .df-topcaption3{
+ 	a{
+ 		padding-left:32px;
+ 		position: relative;
+ 		img{
+ 			position: absolute;
+ 			right: -27px;
+		    top: -11px;
+ 		}
+ 	}
+ 	background: linear-gradient(to bottom, #EB6517, #C14B0C ) !important;
+ 	.df-img2{
+ 		background: url(../img/dd-u.png) no-repeat left center !important ; 
+ 	}
+}
+
+// Чекбоксы
+
+.dd-cheks{
+	border:1px solid #ECECEC;
+	border-radius:5px;
+	box-shadow: 0px 6px 3px -4px #d8d8d8;
+	padding:10px 7px;
+	margin-bottom:10px;
+	.dd-delete{
+		float:right;
+		a{
+			border-radius:5px;
+		 	background: linear-gradient(to bottom, #EB6517, #C14B0C ) !important;
+		 	padding:4px 21px 4px 38px;
+		 	font-family:"Arial";
+		 	font-size:12px;
+		 	color:#fff;
+		 	position: relative;
+		 }
+		 a:after{
+		 	content:" ";
+		 	position: absolute;
+ 	 		background: url(../img/dd-korz.png); 
+ 	 		width: 12px;
+ 	 		height: 12px;
+ 	 		left:16px;
+ 	 		top:5px;
+		 }
+	}
+	/* Скрываем реальный чекбокс */
+	.ab-remember{
+		float:left;
+		.checkbox {
+		    display: none;
+		}
+		label{
+			display: block;
+			cursor:pointer;
+			span{
+				font-family:"Arial";
+				font-size:12px;
+			}
+		}
+		.margin-label{
+			margin-top:4px;
+			// outline: 1px solid red;
+		}
+		 
+		/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
+		.checkbox-custom {
+		    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+		    width: 15px;             /* Обязательно задаем ширину */
+		    height: 16px;            /* Обязательно задаем высоту */
+		    border: 1px solid #ECECEC;
+		    background:none;
+		    border-radius: 5px;
+		    // margin-top: 13px;
+		}
+		 
+		/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
+		.checkbox-custom,
+		.label {
+		    display: inline-block;
+		    vertical-align: middle;
+		}
+		 
+		/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+		.checkbox:checked + .checkbox-custom::before {
+		    content: "";             /* Добавляем наш псевдоэлемент */
+		    display: block;          /* Делаем его блочным элементом */
+		    position: absolute;      /* Позиционируем его абсолютным образом */
+		 
+		    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+		    top: 4px;
+		    right: 2px;
+		    bottom: 2px;
+		    left: 2px;
+		    background: url(../img/ab-galka.png) no-repeat top 0px center;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+		    border-radius: 2px;
+		}
+		/*# sourceMappingURL=style.css.map */
+	}
+}
+
+.df-playlist2{
+	.dd2{
+		// background: url("/img/dd-krug.png") no-repeat !important;
+	    color: #595959 !important;
+	    width: 32px !important;
+	    height: 30px !important;
+	    border:1px solid #F5F5F5 !important;
+	    border-radius:15px;
+	    background: none !important;
+	    box-shadow: 0px 6px 3px -4px #d8d8d8;
+	    display: inline-block;
+	    font-family: "Arial";
+	    font-size: 15px;
+	    font-weight: bold;
+	    height: 30px;
+	    margin: 5px 0 5px 7px;
+	    padding-top: 5px;
+	    text-align: center;
+	    width: 30px;
+	}
+}
 		
 @media only screen and (min-width : 320px) {
 }

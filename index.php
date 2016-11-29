@@ -6,7 +6,7 @@
 	<title>Главная</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link rel="stylesheet" href="libs/font-awesome/4.6.3/css/font-awesome.css" />
+	<!-- <link rel="stylesheet" href="libs/font-awesome/4.6.3/css/font-awesome.css" /> -->
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">

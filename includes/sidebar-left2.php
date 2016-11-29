@@ -5,6 +5,7 @@
 
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">1</span>
 	<div class="df-group">
 		<span>Юлиана Караулова</span>
@@ -13,6 +14,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">2</span>
 	<div class="df-group">
 		<span>Julian Calor & Manse</span>
@@ -20,7 +22,8 @@
 	</div>
 </div>
 <div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-pause.png" alt=""></a>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">3</span>
 	<div class="df-group">
 		<span>Eric Saade Feat. Gustaf</span>
@@ -29,6 +32,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">4</span>
 	<div class="df-group">
 		<span>Ostrovskaya</span>
@@ -37,6 +41,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">5</span>
 	<div class="df-group">
 		<span>Ollin Kan Feat. Liam Chan</span>
@@ -45,6 +50,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">6</span>
 	<div class="df-group">
 		<span>Nicco & Solid, Sound</span>
@@ -53,6 +59,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">7</span>
 	<div class="df-group">
 		<span>Людмила Соколова</span>
@@ -61,6 +68,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">8</span>
 	<div class="df-group">
 		<span>Олег Майами</span>
@@ -69,6 +77,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">9</span>
 	<div class="df-group">
 		<span>Eric Saade Feat. Gustaf</span>
@@ -77,6 +86,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">10</span>
 	<div class="df-group">
 		<span>Ollin Kan Feat. Liam Chan</span>
@@ -90,6 +100,7 @@
 
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">1</span>
 	<div class="df-group">
 		<span>Юлиана Караулова</span>
@@ -98,6 +109,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">2</span>
 	<div class="df-group">
 		<span>Julian Calor & Manse</span>
@@ -105,7 +117,8 @@
 	</div>
 </div>
 <div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-pause.png" alt=""></a>
+	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">3</span>
 	<div class="df-group">
 		<span>Eric Saade Feat. Gustaf</span>
@@ -114,6 +127,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">4</span>
 	<div class="df-group">
 		<span>Ostrovskaya</span>
@@ -122,6 +136,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">5</span>
 	<div class="df-group">
 		<span>Ollin Kan Feat. Liam Chan</span>
@@ -130,6 +145,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">6</span>
 	<div class="df-group">
 		<span>Nicco & Solid, Sound</span>
@@ -138,6 +154,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">7</span>
 	<div class="df-group">
 		<span>Людмила Соколова</span>
@@ -146,6 +163,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">8</span>
 	<div class="df-group">
 		<span>Олег Майами</span>
@@ -154,6 +172,7 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">9</span>
 	<div class="df-group">
 		<span>Eric Saade Feat. Gustaf</span>
@@ -162,9 +181,28 @@
 </div>
 <div class="df-music">
 	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
 	<span class="df-num">10</span>
 	<div class="df-group">
 		<span>Ollin Kan Feat. Liam Chan</span>
 		<span>Quiet Nights (Florian Pazid)</span>
 	</div>
 </div>
+
+<script>
+	$('.dfimg').click(function(){		
+		$('.dfimg2').each(function(){
+			if ($(this).css('display') == 'inline-block' ){
+				$(this).css("display","none");
+				$(this).prev(".dfimg").show();
+			}
+		});
+		$(this).css("display","none");
+		$(this).next('.dfimg2').css("display","inline-block");		
+	});
+
+	$('.dfimg2').click(function(){		
+		$(this).css("display","none");
+		$(this).prev('.dfimg').css("display","inline-block");		
+	});
+</script>
