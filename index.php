@@ -60,8 +60,9 @@
 		<form action="" class="common-form form1">			
 			<span class="form-title">Войти на сайт</span>
 			<div class="an-exit">
-				<span class="an-exit__krest"></span>
+				<span class="de-exit_krest"></span>
 			</div>
+			<div class="clearfix"></div>
 			<div class="de-dashed-line"></div>
 			<input type="text" name="ulog" placeholder="Логин..." class="phone">
 			<input type="text" name="upas" placeholder="Пароль..." class="phone">
