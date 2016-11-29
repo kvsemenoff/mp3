@@ -59,16 +59,27 @@
 	<a name='modal' href='pro100pro'>link1</a>
 	<div id="mask"></div>
 	<div id="zvonok" class="window">
-		<form action="" class="common-form form1">
+		<form action="" class="common-form form1">			
+			<span class="form-title">Войти на сайт</span>
 			<div class="an-exit">
 				<span class="an-exit__krest"></span>
 			</div>
-			<span class="form-title">Войти на сайт</span>
+			<div class="de-dashed-line"></div>
 			<input type="text" name="ulog" placeholder="Логин..." class="phone">
-			<input type="text" name="upas" placeholder="Пароль" class="phone">
-			<input type="checkbox" name="formname" value="Запомнить меня">
+			<input type="text" name="upas" placeholder="Пароль..." class="phone">
+			<input type="checkbox" id="formsaveme" value="checked"><label for="formsaveme">Запомнить меня</label>
 			<input type="submit" id="form1_submit" value="Войти">
 		</form>
+		<div class="de-dashed-line"></div>
+		<div class="soc_items">
+			<div class="caption">Войти с помощью</div>
+			<ul class="soci">
+				<li>11</li>
+				<li>22</li>
+				<li>33</li>
+			</ul>
+		</div>
+		<div class="de-dashed-line"></div>
 	</div>
 	
 </body>
