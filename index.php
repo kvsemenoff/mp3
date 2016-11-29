@@ -6,7 +6,7 @@
 	<title>Главная</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="libs/font-awesome/4.6.3/css/font-awesome.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
@@ -25,15 +25,15 @@
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 
 	<script>
-    	new WOW().init();
-    </script>
+		new WOW().init();
+	</script>
 
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 	
 	<?php require_once('includes/header.php'); ?>
-		
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
@@ -54,7 +54,22 @@
 	</div>
 
 	<?php require_once('includes/footer.php'); ?>
-
+	
+	<button id="btn1">btn1</button>
+	<a name='modal' href='pro100pro'>link1</a>
+	<div id="mask"></div>
+	<div id="zvonok" class="window">
+		<form action="" class="common-form form1">
+			<div class="an-exit">
+				<span class="an-exit__krest"></span>
+			</div>
+			<span class="form-title">Войти на сайт</span>
+			<input type="text" name="ulog" placeholder="Логин..." class="phone">
+			<input type="text" name="upas" placeholder="Пароль" class="phone">
+			<input type="checkbox" name="formname" value="Запомнить меня">
+			<input type="submit" id="form1_submit" value="Войти">
+		</form>
+	</div>
 	
 </body>
 </html>
