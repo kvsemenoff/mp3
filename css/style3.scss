@@ -21,7 +21,28 @@
 		text-align: center;
 		
 		width: 260px; 
-		height: 360px; 		
+		height: 360px; 
+
+		.de-btm_reg_links{
+			font-size: 12px;
+			padding: 7px 20px 0;
+			.reg{				
+				float: left;
+				a{
+					color: #FF7A00;
+					text-decoration: underline;
+				}
+			}
+			.forgot{
+				float: right;
+				a{
+					color: #DB4400;
+					text-decoration: underline;	
+				}
+				
+			}
+		}
+
 		.close{
 			position:absolute;
 			display: block;
@@ -57,13 +78,40 @@
 			.caption{
 				color: #2F373B;
 				float: left;
+				font-size: 14px;
+				position: relative;
+				top: 4px;
 			}
 		}
 		ul.soci{
 
 			li{
 				display: inline-block;
+				background-repeat: no-repeat;
+				margin-left: 5px;
 			}
+			
+		}
+		.soci li:nth-child(1) {
+			background-color: #EEEEEE;
+			background-image: url("../img/soc_items_iconset.png");
+			height: 28px;
+			width: 28px;
+			background-position: 0 0;
+		}
+		.soci li:nth-child(2) {
+			background-color: #EEEEEE;
+			background-image: url("../img/soc_items_iconset.png");
+			height: 28px;
+			width: 28px;
+			background-position: 0 -28px;
+		}
+		.soci li:nth-child(3) {
+			background-color: #EEEEEE;
+			background-image: url("../img/soc_items_iconset.png");
+			height: 28px;
+			width: 28px;
+			background-position: 0 -56px;
 		}
 	}  
 
@@ -90,7 +138,7 @@
 		.de-dashed-line{
 			border-top: 1px dashed #9F9F9F;
 			margin: 0 -18px;
-			padding: 17px 20px;			
+			padding: 10px 20px;			
 		}
 		.form-title{
 			color: #D74600;
@@ -99,8 +147,8 @@
 			font-size: 20px;
 			line-height: 22px;
 			margin: 0 -20px;
-			padding: 18px 20px 15px;
-
+			padding: 10px 20px 10px;
+			
 			text-align: left;
 		}
 		.form-subtitle{

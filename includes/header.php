@@ -16,8 +16,8 @@
 			</div>
 			<div class="col-md-3">
 				<div class="dd-log-in">
-					<a href="#">
-						<div class="dd-button active">
+					<a href="#" name='modal'>
+						<div class="dd-button active">						
 							<span>Войти</span>
 						</div>
 					</a>
