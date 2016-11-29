@@ -49,7 +49,7 @@ $(document).ready(function(){
         var maskWidth = $(window).width(); 
         console.log(maskHeight+'_'+maskWidth); 
         $('#mask').css({'width':maskWidth,'height':maskHeight}); 
-        $('#mask').fadeTo("slow",0.8); 
+        $('#mask').fadeTo("slow",0.32); 
         var winH = $(window).height(); 
         var winW = $(window).width(); 
         posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop; 
