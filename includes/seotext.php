@@ -12,16 +12,7 @@
 	<p>Слушай музыку онлайн и создавай плейлисты вместе с сайтом мп3.su.</p>
 
 	<div class="dd-social">
-		<script type="text/javascript">(function() {
-			if (window.pluso)if (typeof window.pluso.start == "function") return;
-			if (window.ifpluso==undefined) { window.ifpluso = 1;
-				var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-				s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-				s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
-				var h=d[g]('body')[0];
-				h.appendChild(s);
-			}})();</script>
-<div class="pluso" data-background="none;" data-options="small,square,line,horizontal,counter,sepcounter=1,theme=14" data-services="yandex,vkontakte,facebook,twitter,odnoklassniki,moimir,google"></div>
+		<img src="img/soc.png">
 	</div>
 
 </div>
