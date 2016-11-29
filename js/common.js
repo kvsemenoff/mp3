@@ -61,7 +61,15 @@ $(document).ready(function(){
     }); 
     $("#mask").click(function(){
         $(this).css("display","none");
-        id = '#zvonok'; 
+        var id = '#zvonok'; 
+        $(id).css("display","none");
+    });
+
+    $(".de-exit_krest").click(function(){
+        console.log('.de-exit_krest');
+        var ids = $("#mask");
+        ids.css("display","none");
+        var id = '#zvonok'; 
         $(id).css("display","none");
     });
 

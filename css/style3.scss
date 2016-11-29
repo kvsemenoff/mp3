@@ -26,7 +26,7 @@
 	height: 360px;
 	
 	.de-btm_reg_links{
-		font-size: 12px;			
+		font-size: 11px;			
 		padding: 14px 20px 0;
 		.reg{				
 			float: left;
@@ -220,6 +220,9 @@
 		border: none;
 		border-bottom: 3px #E26225 solid;
 		background: linear-gradient(to bottom, #FFAE00, #FF7900);
+		
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFAE00), color-stop(100%,#FF7900)); /* Safari4+ */
+        // background: -webkit-linear-gradient(top, #fefcea 0%,#f1da36 100%); /* Safari5.1+ */
 		color: #fff;			
 		margin-top: 20px;
 		font-family: Arial;
@@ -249,8 +252,12 @@
 				font-size: 13px;
 			}
 		}
-		
+		.de-btm_reg_links{
+			font-size: 12px;
+		}	
 	}
+
+
 
 }
 
