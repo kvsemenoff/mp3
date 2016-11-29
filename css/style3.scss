@@ -6,26 +6,28 @@
 @import "fonts.css";
 
 
-@media only screen and (min-width : 320px) {
 
 	#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000;  display:none; }
 
 	.window{ 
-		display: none;
-		position:absolute;
-		left:0;  
-		top:0;
-		display:none;
+		font-family: Arial;
+		display: none; 
+		position:absolute; 
+		left:0; 
+		top:0; 
+		display:none; 
 		z-index:9998; 
-		background: #fff;
-		text-align: center;
-		
-		width: 260px; 
-		height: 360px; 
+		background: #fff; 
+		text-align: center; 				
 
+
+		// width: 264px;
+		width: 250px; 
+		height: 360px;
+		
 		.de-btm_reg_links{
-			font-size: 12px;
-			padding: 7px 20px 0;
+			font-size: 12px;			
+			padding: 14px 20px 0;
 			.reg{				
 				float: left;
 				a{
@@ -54,7 +56,7 @@
 		}
 		.de-dashed-line{
 			border-top: 1px dashed #9F9F9F;
-			margin: 0 1px;
+			margin: 0 0px;
 		}
 
 		.thanks{
@@ -65,8 +67,7 @@
 			border-radius: 3px;
 			.title{
 				display: block;
-				font-size: 30px;
-				font-family: "RobotoBold";
+				font-size: 30px;				
 			}
 			p{
 				font-size: 18px;
@@ -75,20 +76,24 @@
 		}
 		.soc_items{
 			padding: 8px 20px;
+			height: 45px;
 			.caption{
 				color: #2F373B;
 				float: left;
-				font-size: 14px;
+				font-size: 12px;
 				position: relative;
-				top: 4px;
+
+				top: 7px;
+				font-family: Arial;
+				left: 2px;
 			}
 		}
 		ul.soci{
-
+			float: right;
 			li{
 				display: inline-block;
 				background-repeat: no-repeat;
-				margin-left: 5px;
+				margin-left: 3px;
 			}
 			
 		}
@@ -124,15 +129,18 @@
 		-webkit-border-radius: 3px;
 		border-radius: 3px;
 		box-sizing: border-box;
-		text-align: center;
-		font-family: "RobotoRegular";
+		text-align: center;		
 
-		padding: 0px 20px; 							
-		margin-bottom: 14px;
+		padding: 0px 21px; 							
+		margin-bottom: 13px;
 
 		#formsaveme{
 			display: block;
 			float: left;
+
+			position: relative;
+			top: -3px;
+			left: 3px;
 		}
 		
 		.de-dashed-line{
@@ -142,14 +150,13 @@
 		}
 		.form-title{
 			color: #D74600;
-			display: block;
-			font-family: "RobotoBold";
-			font-size: 20px;
+			display: block;			
+			font-weight: 700;
+			font-size: 16px;
 			line-height: 22px;
-			margin: 0 -20px;
-			padding: 10px 20px 10px;
-			
+			margin: 0 -20px;		
 			text-align: left;
+			padding: 14px 21px 9px;
 		}
 		.form-subtitle{
 			display: block;
@@ -162,29 +169,29 @@
 
 		label{
 			color: #393939;
-			display: block;
-			font-family: "RobotoRegular";
+			display: block;			
 			font-size: 13px;
 			margin-bottom: 15px;
-			margin-left: 15px;
-			margin-top: -1px;
+			margin-left: 23px;
+			margin-top: -4px;
 			padding: 0;
 			width: 100px;
+
+
 		}
 		
 		input[type="text"]{
 			display: inline-block;
 			width: 100%;
-			height: 40px;			
+			height: 42px;			
 			box-sizing: border-box;
 			border: 2px solid #eaeaea;
 			background: #fff;
 			color: #000;
-			text-align: center;
-			font-family: "RobotoRegular";
+			text-align: center;			
 			line-height: 40px;
-			padding: 0px 15px;
-			font-size: 16px;
+			padding: 0px 11px;
+			font-size: 15px;
 			margin: 0 auto;
 			margin-bottom: 20px;
 			text-align: left;
@@ -192,19 +199,17 @@
 		input[type="submit"]{
 			display: inline-block;
 			width: 100%;
-			height: 57px;
+			height: 44px;
 			box-sizing: border-box;
 			border: none;
-			border-bottom: 3px #E26225 solid; 
+			border-bottom: 3px #E26225 solid;
 			background: linear-gradient(to top, #FFAE00, #FF7900);
 			color: #fff;
-			font-family: "RobotoRegular";
-			//padding: 0px 60px;
-			font-size: 20px;
-			text-transform: uppercase;
+			font-size: 14px;			
 			margin-top: 20px;
-			cursor: pointer; 
-			margin: 0 auto; 
+			font-family: Arial;
+			cursor: pointer;
+			margin: 0 auto;
 			
 		}
 		input[name="ulog"] {
@@ -228,18 +233,24 @@
 		cursor: pointer;
 	}
 
-}
+
 
 @media only screen and (min-width : 480px) {
+	.window{ 
+		width: 264px !important;
+	}
 }
 
 @media only screen and (min-width : 768px) {
+
 }
 
 @media only screen and (min-width : 992px) {
+	
 }
 
 @media only screen and (min-width : 1248px) {
+
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {

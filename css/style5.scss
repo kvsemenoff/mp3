@@ -5,9 +5,9 @@
 
 // left and right sidebar
 .df-topcaption, .df-topcaption2{
-	height: 45px;
+	//height: 45px;
 	background: linear-gradient(to bottom, #ffb200 , #ff7400 );
-	padding: 7px;
+	padding: 7px 7px 3px 7px;
 	border-radius: 5px;
 	width: 92%;
 	margin: 28px 0 11px 0;
@@ -29,17 +29,17 @@
 	}
 }
 .dfimg2{
-	display: none;
-}
-.df-music{
+		display: none;
+	}
+.df-music, .df-online{
 	padding: 0 7px 2px 7px;
 	border-bottom: 1px solid #e8e8e8;
 	margin-bottom: 5.0px;
 	.dfimg a{
 		width: 30px;
 		height: 32px;
-		display: inline-block;		
-	}
+		display: inline-block;
+	}	
 	.df-num{
 		font-size: 13px; color:#bd470a;
 		font-family: "Arial";
@@ -55,10 +55,12 @@
 			span:first-child{
 				font-size: 12px; color:#6c6c6c;font-family: "Arial";
 				display: block;
+				
 			}
 			span:last-child{
 				color:#de6005;font-size: 12px;font-family: "Arial";font-weight: bold;
 				display: block;
+				
 			}
 		}
 	}
@@ -69,6 +71,60 @@
 	box-shadow: 0px 6px 3px -4px #d8d8d8;	
 }
 
+// online list 
+
+
+.dfonlinebg{
+	background: url(/img/df-logo3.png)no-repeat left top !important;
+}
+.df-online{
+	border:none;
+	padding: 7px 7px 2px 7px;
+	margin-top: 12.5px;
+	text-align: center;	//
+	.df-group{
+		vertical-align: top;
+		padding-top: 7px;
+		//margin-left: 13px;		
+		text-align: center;
+		width: 100%;
+		a{
+			span:first-child{
+				font-size: 14px;
+			}
+			span:last-child{
+				font-size: 16px;
+			}
+		}
+	}	
+}
+.df-online:after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px dashed #e8e8e8;
+	margin: 5px 0 7px 0;
+}
+.df-online:hover{
+	border-radius: 5px;
+	background: linear-gradient(to bottom, #fffffe , #eeeeee );
+	box-shadow: 0px 6px 3px -4px #d8d8d8;	
+}
+
+.df-addbox{
+	//float: right;
+	display: inline-block;
+	padding-top: 4px;		
+	text-align: center;//
+	float: none;//
+	span{
+		font-size: 14px; color:#a0a0a0;font-family: "Arial";
+		display: inline-block;
+		vertical-align: top;
+		padding: 9px 0 0 10px;
+		margin-right: 5px;	
+	}
+}
 //tabs
 
 .df-tabstoggle{	
@@ -225,9 +281,8 @@
 		}
 	}
 	.df-track{	
-	.df-sound{
-		
-		display: inline-block;
+		.df-sound{		
+			display: inline-block;
 		}
 	}
 }
@@ -237,6 +292,19 @@
 		li{
 			display: inline-block;
 		}
+	}
+	.df-online{	
+		text-align: left;	//
+		.df-group{		
+			margin-left: 13px;		
+			text-align: left;
+			width: auto;
+			padding-top: 0px;		
+		}	
+	}
+
+	.df-addbox{
+		float: right;	
 	}
 }
 

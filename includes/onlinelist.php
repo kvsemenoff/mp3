@@ -1,131 +1,137 @@
-<div class="df-topcaption dd-topcaption">
-	<span class="dfimgbg"></span>
-	<span class="df-cap">Тимати слушать онлайн, найдено: 25 треков</span>
+<div class="df-topcaption df-topcaption2">
+	<span class="dfimgbg dfonlinebg"></span>
+	<span class="df-cap">Музыка онлайн - слушать и скачивать mp3</span>
 </div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">1</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Юлиана Караулова</span>
-			<span>Разбитая Любовь (Project)</span>
-		</a>
-	</div>
-</div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">2</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Julian Calor & Manse</span>
-			<span>Atlas (Original Mix)</span>
-		</a>
-	</div>
-</div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">3</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Eric Saade Feat. Gustaf</span>
-			<span>Wide Awake (Red Mix)</span>
-		</a>
-	</div>
-</div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">4</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Ostrovskaya</span>
-			<span>Просто Рядом Быть</span>
-		</a>
-	</div>
-</div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">5</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Ollin Kan Feat. Liam Chan</span>
-			<span>Quiet Nights (Florian Paoid)</span>
-		</a>
-	</div>
-</div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">6</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Nicco & Solid, Sound</span>
-			<span>Gunned Down (Exteded Mix)</span>
-		</a>
-	</div>
-</div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">7</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Людмила Соколова</span>
-			<span>Я Буду Для Тебя</span>
-		</a>
-	</div>
-</div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">8</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Олег Майами</span>
-			<span>Останься со мной навсегда</span>
-		</a>
-	</div>
-</div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">9</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Eric Saade Feat. Gustaf</span>
-			<span>Wide Awake (Red Mix)</span>
-		</a>
-	</div>
-</div>
-<div class="df-music">
-	<a href="#" class="dfimg"><img src="img/df-play.png" alt=""></a>
-	<a href="#" class="dfimg2"><img src="img/df-pause.png" alt=""></a>
-	<span class="df-num">10</span>
-	<div class="df-group">
-		<a href="#">
-			<span>Ollin Kan Feat. Liam Chan</span>
-			<span>Quiet Nights (Florian Pazid)</span>
-		</a>
-	</div>
-</div>
-<script>
-	$('.dfimg').click(function(){		
-		$('.dfimg2').each(function(){
-			if ($(this).css('display') == 'inline-block' ){
-				$(this).css("display","none");
-				$(this).prev(".dfimg").show();
-			}
-		});
-		$(this).css("display","none");
-		$(this).next('.dfimg2').css("display","inline-block");		
-	});
 
-	$('.dfimg2').click(function(){		
-		$(this).css("display","none");
-		$(this).prev('.dfimg').css("display","inline-block");		
-	});
-</script>
+<div class="df-music df-online">
+	<a href="#" class="dfimg"><img src="img/df-playbig.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pausebig.png" alt=""></a>	
+	<div class="df-group">
+		<a href="#">
+			<span>Burak Yeter</span>
+			<span>Tuesday Ft.Danelle Sandoval</span>
+		</a>		
+	</div>
+	<div class="df-addbox">
+		<a href="#" class="df-one"><img src="img/df-add.png" alt=""></a>
+		<a href="#" class="df-two"><img src="img/df-download2.png" alt=""></a>
+		<span>04:30</span>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="df-music df-online">
+	<a href="#" class="dfimg"><img src="img/df-playbig.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pausebig.png" alt=""></a>	
+	<div class="df-group">
+		<a href="#">
+			<span>Sia feat. Kendrick Lamar</span>
+			<span>The Greatest</span>
+		</a>		
+	</div>
+	<div class="df-addbox">
+		<a href="#" class="df-one"><img src="img/df-add.png" alt=""></a>
+		<a href="#" class="df-two"><img src="img/df-download2.png" alt=""></a>
+		<span>04:30</span>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="df-music df-online">
+	<a href="#" class="dfimg"><img src="img/df-playbig.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pausebig.png" alt=""></a>	
+	<div class="df-group">
+		<a href="#">
+			<span>Наргиз</span>
+			<span>Вдвоём (feat. Максим Фадеев)</span>
+		</a>		
+	</div>
+	<div class="df-addbox">
+		<a href="#" class="df-one"><img src="img/df-add.png" alt=""></a>
+		<a href="#" class="df-two"><img src="img/df-download2.png" alt=""></a>
+		<span>04:30</span>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="df-music df-online">
+	<a href="#" class="dfimg"><img src="img/df-playbig.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pausebig.png" alt=""></a>	
+	<div class="df-group">
+		<a href="#">
+			<span>Emin &amp; Ани Лорак</span>
+			<span>Я Не Могу Сказать</span>
+		</a>		
+	</div>
+	<div class="df-addbox">
+		<a href="#" class="df-one"><img src="img/df-add.png" alt=""></a>
+		<a href="#" class="df-two"><img src="img/df-download2.png" alt=""></a>
+		<span>04:30</span>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="df-music df-online">
+	<a href="#" class="dfimg"><img src="img/df-playbig.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pausebig.png" alt=""></a>	
+	<div class="df-group">
+		<a href="#">
+			<span>Therr Maitz</span>
+			<span>My Love Is Like</span>
+		</a>		
+	</div>
+	<div class="df-addbox">
+		<a href="#" class="df-one"><img src="img/df-add.png" alt=""></a>
+		<a href="#" class="df-two"><img src="img/df-download2.png" alt=""></a>
+		<span>04:30</span>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="df-music df-online">
+	<a href="#" class="dfimg"><img src="img/df-playbig.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pausebig.png" alt=""></a>	
+	<div class="df-group">
+		<a href="#">
+			<span>Calvin Harris</span>
+			<span>This Is What You Came For (feat. Rihanna)</span>
+		</a>		
+	</div>
+	<div class="df-addbox">
+		<a href="#" class="df-one"><img src="img/df-add.png" alt=""></a>
+		<a href="#" class="df-two"><img src="img/df-download2.png" alt=""></a>
+		<span>04:30</span>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="df-music df-online">
+	<a href="#" class="dfimg"><img src="img/df-playbig.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pausebig.png" alt=""></a>	
+	<div class="df-group">
+		<a href="#">
+			<span>Lil Wayne &amp; Wiz Khalifa</span>
+			<span>Sucker For Pain</span>
+		</a>		
+	</div>
+	<div class="df-addbox">
+		<a href="#" class="df-one"><img src="img/df-add.png" alt=""></a>
+		<a href="#" class="df-two"><img src="img/df-download2.png" alt=""></a>
+		<span>04:30</span>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="df-music df-online">
+	<a href="#" class="dfimg"><img src="img/df-playbig.png" alt=""></a>
+	<a href="#" class="dfimg2"><img src="img/df-pausebig.png" alt=""></a>	
+	<div class="df-group">
+		<a href="#">
+			<span>Ben Delay</span>
+			<span>I Never Felt So Right (Radio Mix) </span>
+		</a>		
+	</div>
+	<div class="df-addbox">
+		<a href="#" class="df-one"><img src="img/df-add.png" alt=""></a>
+		<a href="#" class="df-two"><img src="img/df-download2.png" alt=""></a>
+		<span>04:30</span>
+	</div>
+	<div class="clear"></div>
+</div>
+
+
+
+
