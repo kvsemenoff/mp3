@@ -55,7 +55,7 @@ $(document).ready(function(){
         posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop; 
         console.log(winH+'_'+winW+"_"+posTop+"_id:"+id); 
         id = '#zvonok'; 
-        $(id).css('top',  posTop+150); 
+        $(id).css('top',  posTop+75); 
         $(id).css('left', winW/2-$(id).width()/2); 
         $(id).fadeIn(500); 
     }); 
